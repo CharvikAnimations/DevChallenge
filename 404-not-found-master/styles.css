@@ -1,0 +1,163 @@
+body{
+    overflow-x: hidden;
+    padding: 0px 40px;
+    margin: 0;
+    color: rgb(63, 63, 63);
+}
+
+
+header h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.scareCrow img{
+    width: 70%;
+    height: 450px;
+    padding: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rightSide,.leftSide{
+    float: left;
+    width: 50%;
+}
+
+.leftSide h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 2.8rem;
+    letter-spacing: 5px;
+    padding: 80px 0px 0px 0px;
+    padding-right: 300px;
+    line-height: 70px;
+    text-align: left;
+}
+.leftSide p{
+    color: rgb(109, 109, 109);
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 400px;
+    letter-spacing: 2px;
+}
+button{
+    color:white;
+    padding: 20px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(59, 59, 59);
+    border: 0px transparent;
+    margin: 50px 0px;
+    cursor: pointer;
+}
+
+footer{
+    float: left;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*For tab Screen*/
+@media screen and (max-width:1200px){
+    .scareCrow img{
+        width: 70%;
+        height: 350px;
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .leftSide h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size: 2.8rem;
+        letter-spacing: 5px;
+        padding: 20px 0px 0px 0px;
+        padding-right: 100px;
+        line-height: 70px;
+        text-align: left;
+    }
+    .leftSide p{
+        color: rgb(109, 109, 109);
+        font-size: 20px;
+        line-height: 25px;
+        margin-right: 100px;
+        letter-spacing: 2px;
+    }
+
+}
+
+
+/*For Mobile Screen*/
+@media screen and (max-width:600px){
+    body{
+        overflow-x: hidden;
+        padding: 0px 20px;
+        margin: 0;
+        color: rgb(63, 63, 63);
+    }
+    header h3{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 24px;
+        line-height: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .scareCrow img{
+        width: 80%;
+        height: 250px;
+        padding: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .leftSide h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size: 2.8rem;
+        letter-spacing: 5px;
+        padding: 0px;
+        line-height: 70px;
+    }
+    .leftSide p{
+        color: rgb(94, 94, 94);
+        font-size: 20px;
+        line-height: 25px;
+        padding: 0px 60px 0px 0px;
+        padding: 0px;
+        letter-spacing: 2px;
+    }
+
+    .rightSide,.leftSide{
+        float: none;
+        width: 100%;
+    }
+    button{
+        color:white;
+        background-color: rgb(59, 59, 59);
+        padding: 25px 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: 0px transparent;
+        margin: 50px 0px;
+        cursor: pointer;
+    }
+
+    footer{
+        float: none;
+        text-align: center;
+        font-size: 14px;
+        padding-bottom: 10px;
+        padding: 0px;
+    }
+}
+
+
